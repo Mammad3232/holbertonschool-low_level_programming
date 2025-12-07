@@ -3,10 +3,9 @@
 
 int main(void)
 {
-    int i;
+    int a = 5, b = 7;
 
-    for (i = 32; i <= 126; i++)
-        printf("%c: %d\n", i, _isdigit(i));
+    printf("%d * %d = %d\n", a, b, mul(a, b));
     return (0);
 }
 
